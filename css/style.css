@@ -55,3 +55,61 @@ h2 {
   zoom: 120%;
 }
 
+/* banner */
+#main-banner {
+    height: 70vh;
+    background-image: url("../imagens/portifolio-bg-bp.png");
+    background-size: cover;
+    padding-top: 5vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
+
+}
+
+#banner-info h1 {
+    color: black;
+    font-size: 30pt;
+}
+
+#banner-info img{
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#banner-info p{
+    background-color: #65c9ff;
+    color: black;
+    font-weight: 800;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/* about */
+#about-section {
+    text-align: center;
+    background-color: #65c9ff;
+    color: black;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+   max-width: 550px;
+   margin-left: auto;
+   margin-right: auto;
+   line-height: 30px;
+}
