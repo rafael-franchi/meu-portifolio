@@ -182,3 +182,52 @@ h2 {
 #jobs-section p{
     margin-bottom: 50px;
 }
+
+#jobs-section a{
+    font-weight: bold;
+    color: #65c9ff;
+}
+
+.job-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box{
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #65c9ff;
+    border-bottom: 2px solid #65c9ff;
+}
+
+.proj1 {
+    background-image: url(../imagens/proj_1.png);
+}
+
+.proj2 {
+    background-image: url(../imagens/proj_2.png);
+}
+
+.proj3 {
+    background-image: url(../imagens/proj_3.png);
+}
+
+.proj4 {
+    background-image: url(../imagens/proj_4.png);
+}
+
+.proj5 {
+    background-image: url(../imagens/proj_5.png);
+}
+
+.proj6 {
+    background-image: url(../imagens/proj_6.png);
+}
