@@ -73,9 +73,14 @@ h2 {
 
 }
 
-#banner-info h1 {
+#banner-info h1, #banner-info h2{
     color: black;
     font-size: 30pt;
+}
+#banner-info p{
+    color: black;
+    font-weight: 800;
+    padding: 5px;
 }
 
 #banner-info img{
@@ -84,7 +89,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-#banner-info p{
+#banner-info .button{
     background-color: #65c9ff;
     color: black;
     font-weight: 800;
@@ -231,3 +236,79 @@ h2 {
 .proj6 {
     background-image: url(../imagens/proj_6.png);
 }
+
+/* footer*/
+
+footer{
+    padding: 50px 0px;
+    background-color: #65c9ff;
+    color: black;
+    text-align: center;
+}
+
+footer img{
+    height: 50px;
+    margin: 30px 0px;
+}
+
+footer p{
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea{
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer .detail {
+    font-weight: bold;
+}
+
+/* banner contato*/
+#main-banner-contato {
+    height: 70vh;
+    background-image: url("../imagens/portifolio-bg-bp.png");
+    background-size: cover;
+    padding-top: 5vh;
+}
+
+#banner-info-contato {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #FFF;
+    padding: 0px;
+
+}
+
+#banner-info-contato h1, #banner-info-contato h2{
+    color: black;
+    font-size: 30pt;
+    margin-top: -10px;
+}
+#banner-info-contato p{
+    color: black;
+    font-weight: 800;
+    padding: 0px;
+}
+
+#banner-info-contato img{
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
